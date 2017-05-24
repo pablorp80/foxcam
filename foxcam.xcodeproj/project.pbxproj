@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29905E231ED5298B003CE19C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29905E221ED5298B003CE19C /* main.m */; };
+		29905E261ED5298B003CE19C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29905E251ED5298B003CE19C /* AppDelegate.m */; };
+		29905E291ED5298B003CE19C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29905E281ED5298B003CE19C /* ViewController.m */; };
+		29905E2C1ED5298B003CE19C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29905E2A1ED5298B003CE19C /* Main.storyboard */; };
+		29905E2E1ED5298B003CE19C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29905E2D1ED5298B003CE19C /* Images.xcassets */; };
+		29905E311ED5298B003CE19C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29905E2F1ED5298B003CE19C /* LaunchScreen.xib */; };
+		29905E3D1ED5298B003CE19C /* foxcamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29905E3C1ED5298B003CE19C /* foxcamTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29905E371ED5298B003CE19C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29905E151ED5298B003CE19C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29905E1C1ED5298B003CE19C;
+			remoteInfo = foxcam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		29905E1D1ED5298B003CE19C /* foxcam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = foxcam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29905E211ED5298B003CE19C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29905E221ED5298B003CE19C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29905E241ED5298B003CE19C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		29905E251ED5298B003CE19C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		29905E271ED5298B003CE19C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		29905E281ED5298B003CE19C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		29905E2B1ED5298B003CE19C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		29905E2D1ED5298B003CE19C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		29905E301ED5298B003CE19C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		29905E361ED5298B003CE19C /* foxcamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = foxcamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29905E3B1ED5298B003CE19C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29905E3C1ED5298B003CE19C /* foxcamTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = foxcamTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29905E1A1ED5298B003CE19C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29905E331ED5298B003CE19C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29905E141ED5298B003CE19C = {
+			isa = PBXGroup;
+			children = (
+				29905E1F1ED5298B003CE19C /* foxcam */,
+				29905E391ED5298B003CE19C /* foxcamTests */,
+				29905E1E1ED5298B003CE19C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29905E1E1ED5298B003CE19C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29905E1D1ED5298B003CE19C /* foxcam.app */,
+				29905E361ED5298B003CE19C /* foxcamTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29905E1F1ED5298B003CE19C /* foxcam */ = {
+			isa = PBXGroup;
+			children = (
+				29905E241ED5298B003CE19C /* AppDelegate.h */,
+				29905E251ED5298B003CE19C /* AppDelegate.m */,
+				29905E271ED5298B003CE19C /* ViewController.h */,
+				29905E281ED5298B003CE19C /* ViewController.m */,
+				29905E2A1ED5298B003CE19C /* Main.storyboard */,
+				29905E2D1ED5298B003CE19C /* Images.xcassets */,
+				29905E2F1ED5298B003CE19C /* LaunchScreen.xib */,
+				29905E201ED5298B003CE19C /* Supporting Files */,
+			);
+			path = foxcam;
+			sourceTree = "<group>";
+		};
+		29905E201ED5298B003CE19C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				29905E211ED5298B003CE19C /* Info.plist */,
+				29905E221ED5298B003CE19C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		29905E391ED5298B003CE19C /* foxcamTests */ = {
+			isa = PBXGroup;
+			children = (
+				29905E3C1ED5298B003CE19C /* foxcamTests.m */,
+				29905E3A1ED5298B003CE19C /* Supporting Files */,
+			);
+			path = foxcamTests;
+			sourceTree = "<group>";
+		};
+		29905E3A1ED5298B003CE19C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				29905E3B1ED5298B003CE19C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29905E1C1ED5298B003CE19C /* foxcam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29905E401ED5298B003CE19C /* Build configuration list for PBXNativeTarget "foxcam" */;
+			buildPhases = (
+				29905E191ED5298B003CE19C /* Sources */,
+				29905E1A1ED5298B003CE19C /* Frameworks */,
+				29905E1B1ED5298B003CE19C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = foxcam;
+			productName = foxcam;
+			productReference = 29905E1D1ED5298B003CE19C /* foxcam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		29905E351ED5298B003CE19C /* foxcamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29905E431ED5298B003CE19C /* Build configuration list for PBXNativeTarget "foxcamTests" */;
+			buildPhases = (
+				29905E321ED5298B003CE19C /* Sources */,
+				29905E331ED5298B003CE19C /* Frameworks */,
+				29905E341ED5298B003CE19C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29905E381ED5298B003CE19C /* PBXTargetDependency */,
+			);
+			name = foxcamTests;
+			productName = foxcamTests;
+			productReference = 29905E361ED5298B003CE19C /* foxcamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29905E151ED5298B003CE19C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Pablo Rivas";
+				TargetAttributes = {
+					29905E1C1ED5298B003CE19C = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					29905E351ED5298B003CE19C = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 29905E1C1ED5298B003CE19C;
+					};
+				};
+			};
+			buildConfigurationList = 29905E181ED5298B003CE19C /* Build configuration list for PBXProject "foxcam" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29905E141ED5298B003CE19C;
+			productRefGroup = 29905E1E1ED5298B003CE19C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29905E1C1ED5298B003CE19C /* foxcam */,
+				29905E351ED5298B003CE19C /* foxcamTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29905E1B1ED5298B003CE19C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29905E2C1ED5298B003CE19C /* Main.storyboard in Resources */,
+				29905E311ED5298B003CE19C /* LaunchScreen.xib in Resources */,
+				29905E2E1ED5298B003CE19C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29905E341ED5298B003CE19C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29905E191ED5298B003CE19C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29905E291ED5298B003CE19C /* ViewController.m in Sources */,
+				29905E261ED5298B003CE19C /* AppDelegate.m in Sources */,
+				29905E231ED5298B003CE19C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29905E321ED5298B003CE19C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29905E3D1ED5298B003CE19C /* foxcamTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29905E381ED5298B003CE19C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29905E1C1ED5298B003CE19C /* foxcam */;
+			targetProxy = 29905E371ED5298B003CE19C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		29905E2A1ED5298B003CE19C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29905E2B1ED5298B003CE19C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		29905E2F1ED5298B003CE19C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29905E301ED5298B003CE19C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29905E3E1ED5298B003CE19C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29905E3F1ED5298B003CE19C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29905E411ED5298B003CE19C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = foxcam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		29905E421ED5298B003CE19C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = foxcam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		29905E441ED5298B003CE19C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = foxcamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/foxcam.app/foxcam";
+			};
+			name = Debug;
+		};
+		29905E451ED5298B003CE19C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = foxcamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/foxcam.app/foxcam";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29905E181ED5298B003CE19C /* Build configuration list for PBXProject "foxcam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29905E3E1ED5298B003CE19C /* Debug */,
+				29905E3F1ED5298B003CE19C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29905E401ED5298B003CE19C /* Build configuration list for PBXNativeTarget "foxcam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29905E411ED5298B003CE19C /* Debug */,
+				29905E421ED5298B003CE19C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		29905E431ED5298B003CE19C /* Build configuration list for PBXNativeTarget "foxcamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29905E441ED5298B003CE19C /* Debug */,
+				29905E451ED5298B003CE19C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29905E151ED5298B003CE19C /* Project object */;
+}
